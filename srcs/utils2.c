@@ -47,6 +47,8 @@ int	ft_putptr(void *ptr)
 	char	c;
 
 	count = 0;
+	if (!ptr)
+		return (write(1, "(nil)", 5));
 	count += write(1, "0x", 2);
 	if ((unsigned long long)ptr >= 16)
 		count += ft_puthex((unsigned long long)ptr / 16, 0);
