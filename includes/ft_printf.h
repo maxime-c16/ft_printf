@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mcauchy <mcauchy@student.42.fr>            +#+  +:+       +#+        */
+/*   By: macauchy <macauchy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/14 20:12:28 by mcauchy           #+#    #+#             */
-/*   Updated: 2025/02/14 20:39:32 by mcauchy          ###   ########.fr       */
+/*   Updated: 2025/04/27 12:13:48 by macauchy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,8 +23,6 @@ int		ft_printf(const char *format, ...);
 // utils
 
 int		ft_strlen(const char *str);
-int		ft_isdigit(int c);
-int		ft_atoi(const char *str);
 int		ft_putstr(const char *str);
 int		ft_putchar(char c);
 int		ft_putnbr(int n);
